@@ -11,6 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "@mermaid-js/mermaid-cli": "^9.1.7",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
     "prisma": "^4.5.0",
     "prisma-erd-generator": "^1.2.2",
     "tsx": "^3.11.0",
@@ -18,8 +26,10 @@
   },
   "dependencies": {
     "@fastify/cors": "^8.1.1",
+    "@fastify/jwt": "^6.3.2",
     "@prisma/client": "^4.5.0",
     "fastify": "^4.9.2",
+    "node-fetch": "^3.2.10",
     "short-unique-id": "^4.4.4",
     "zod": "^3.19.1"
   },
