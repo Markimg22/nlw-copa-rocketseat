@@ -36,6 +36,7 @@
     "no-unused-vars": "off",
     "react/no-unstable-nested-components": "off",
     "no-underscore-dangle": "off",
-    "dot-notation": "off"
+    "dot-notation": "off",
+    "react/jsx-no-bind": "off"
   }
 }
